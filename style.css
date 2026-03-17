@@ -72,3 +72,16 @@ a{text-decoration:none;color:inherit}
   .mask-top{height:11%}
   .mask-left{width:3.8%}
 }
+.media-frame .endframe{
+  opacity:0;
+  pointer-events:none;
+  z-index:2;
+}
+
+.page-shell.ended .endframe{
+  opacity:1;
+}
+
+.page-shell.ended video{
+  opacity:0;
+}
